@@ -1,0 +1,226 @@
+/* CSS Document */
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../fonts/CenturyGothic.woff);
+}
+@font-face {
+	font-family: CenturyGothic;
+	src: url(../fonts/CenturyGothic-Bold.woff);
+	font-weight: bold;
+}
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: CenturyGothic !important;
+    text-transform: none !important;
+}
+.affix img {
+    width: 70px;
+}
+@media only screen and (max-width: 1024px){
+    .affix_img {
+        width: 70px;
+
+    }
+}
+a {
+	color: #c2a541;
+	font-weight: bold;
+}
+a:hover {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navbar-custom button {
+    /*margin-right: 35px;*/
+}
+.navbar-brand {
+	padding: 0 !important;
+}
+.navbar-brand img {
+	top: 10px;
+	position: relative;
+	left: 10px;
+}
+
+.fa-stack {
+	height: 1em;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container2 {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.modal-content {
+	background-color: #EFEFEF;
+}
+
+.modal-title {
+	margin-top: 30px;
+}
+
+.modal-body {
+	padding-top: 20px;
+}
+
+.p-largo {
+	height: 80px;
+}
+
+.dorado {
+	color: #a68f41;
+}
+.about_col1 {
+	min-height:615px;
+	max-height: 616px;
+	background-image: url(../images/back_about1.jpg);
+	background-position: right center;
+	background-color: #efefef;
+	background-repeat: no-repeat;
+}
+
+.about_col2{
+	padding-top: 70px;
+	min-height: 615px;
+	background-image: url(../images/back_about2.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+.about-text {
+	color: #cccccc;
+	font-size: 16px;
+	text-align: justify;
+	margin-left: 10px;
+}
+
+.about_row {
+	margin-bottom: 10px;
+}
+
+.about_modal_body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image: url(../images/back_about2.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+#about_mas {
+	width: 168px;
+	height: 60px;
+	background-image: url(../images/btn_about.png);
+	background-position: left top;
+}
+
+#about_mas:hover {
+	background-position: right top;
+}
+
+.contacto_h3 {
+    color: #777777;
+    font-weight: normal;
+	padding: 0 5px;
+}
+.contacto_h4 {
+    font-size: 20px;
+    color: #c2a541;
+}
+
+.contacto_h6 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+@media only screen and (min-width: 1024px){
+    .contacto_div {
+        background-image: url(../images/contact_back.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        min-height: 750px
+    }
+}
+
+.contacto_datos {
+    color: #777777;
+    font-size: 16px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+
+.contacto_datos:hover{
+    color: #777777;
+    font-size: 16px;
+}
+
+.contacto_row {
+    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 1024px){
+    .contacto_fleje_back{
+        background: #c2a541;
+        color: #FFFFFF;
+        position:  fixed;
+        bottom: 0px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    .contacto_fleje_back .margen1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contacto_fleje_back .margen2 {
+        margin-top: 15px;
+    }
+	.foot_linea {
+	    background-image: url(../images/foot_back.png);
+	    background-repeat: repeat-x;
+	    height: 46px;
+	}
+	.foot_tama {
+	    background: #222222;
+	    padding-top: 20px;
+	    padding-bottom: 90px;
+	    color: #FFFFFF;
+	}
+}
+@media only screen and (max-width: 1023px){
+    .contacto_fleje_back{
+        background: #c2a541;
+        color: #FFFFFF;
+        position:  fixed;
+        bottom: 0px;
+        width: 100%;
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 0px;
+        word-wrap: break-word;
+    }
+    .contacto_fleje_back a{
+        color: #FFFFFF;
+    }
+    .contacto_fleje_back .margen1 {
+        margin-top: 5px;
+    }
+
+    .contacto_fleje_back .margen2 {
+        margin-top: 5px;
+		margin-bottom: 10px;
+    }
+	.foot_linea {
+	    height: 46px;
+	}
+	.foot_tama {
+	    background: #222222;
+	    padding-top: 10px;
+	    padding-bottom: 40px;
+	    color: #FFFFFF;
+	}
+}
+
+
